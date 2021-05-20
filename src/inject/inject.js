@@ -18,7 +18,10 @@ chrome.extension.sendMessage({}, function(response) {
 		setInterval(function() {
 			var elems = document.getElementsByClassName("claimable-bonus__icon");
 			for (elem of elems) {
-				elem.closest(".tw-button").click();
+				var button = elem.closest('button[class^="ScCoreButton"]');
+				if (button) {
+					button.click();
+				}
 			}
 		}, 1000);
 	}
