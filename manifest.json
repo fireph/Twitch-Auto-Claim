@@ -1,6 +1,6 @@
 {
   "name": "Twitch Auto Claim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Automatically claims watch bonus on Twitch.",
   "icons": {
